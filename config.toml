@@ -1,0 +1,7 @@
+main.plugins.bitcoinplus.enabled = true
+main.plugins.bitcoinplus.coin = "bitcoin"		# Any crypto: bitcoin, ethereum, litecoin, solana, dogecoin, etc.
+main.plugins.bitcoinplus.currency = "usd"		# Any fiat: usd, cny, eur, gbp, zar, brl, etc.
+main.plugins.bitcoinplus.api_url = "https://api.coingecko.com/api/v3/simple/price"
+main.plugins.bitcoinplus.refresh_interval = 600		# in seconds (10 minutes) DO NOT SET LESS THAN 300
+main.plugins.bitcoinplus.position.x = 206		# screen X position (for waveshare v4 screen x 120, y 110)
+main.plugins.bitcoinplus.position.y = 195		# screen Y position
